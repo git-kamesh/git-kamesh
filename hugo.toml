@@ -1,4 +1,4 @@
-baseURL = "https://kblogs.in/"
+baseURL = "https://kamesh.xyz/"
 author = "Kamesh Sethupathi"
 paginate = 8
 languageCode = "en"
@@ -10,7 +10,7 @@ ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
 theme = "paper"
-title = "KBlogs.in"
+title = "Kamesh.xyz"
 
 [params]
   color = 'linen'
