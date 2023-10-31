@@ -6,7 +6,7 @@ author = "Kamesh Sethupathi"
 tags = ["startup", "random-thought", "business"]
 +++
 
-Today I could see many startups adding fancy hierarchies to their system.
+Today I could see many startups adding fancy [hierarchies](https://www.investopedia.com/terms/c/corporate-hierarchy.asp) to their system.
 
 Adding layers of unnecessary hierarchy due to the hype just others doing it will ruin the business rather than benefiting in the longer run.
 
@@ -18,6 +18,9 @@ Creating a new hierarchy for a non creator role expecting more value through the
 
 Jargon garnished inputs won't add value to the product but constant regular touch with the end users would. Be passive rather than being active, let customers tell you what they want, if multiple users came with same problem then we can pick and solve it by constantly being touch with them. We don't need an Industry expert to do this right? Even a well trained fresher with decent communication skill could do this.
 
-I belive nurturing Inhouse talents is more important than introducing unnecessary hierarchy. Head count is not the sign of the company size but it's the profit. 
+I belive nurturing Inhouse talents is more important than introducing unnecessary hierarchy. Head count is not the sign of the company size but it's the [profit](https://en.wikipedia.org/wiki/Profit_(accounting)). 
 
 Hierarchy is important for smoother operations with well bounded roles and responsibilities, but the same hierarchy should not become a burden.
+
+
+{{< include "reachout.md" >}}

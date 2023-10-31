@@ -13,3 +13,6 @@ Balance between believing in the process and believing yourself is very importan
 It's not even possible to always stay motivated, we might deviate from the purpose for which we started, then slowly after sometime you realize then go back to track. It's ok nothing wrong in it.
 
 If something is going to take time, let's wait for it. Urge could even lead to destruction. Just give your time and belief, things might happen.
+
+
+{{< include "reachout.md" >}}
