@@ -48,7 +48,7 @@
       {{ block "main" . }}{{ end }}
 
       {{ with .Page.Permalink | urlize }}
-        <p align='center'><img src="https://visitor-badge.laobi.icu/badge?page_id={{ . }}" loading="lazy"></p>
+        <p align='center'><img src="https://visitor-badge.laobi.icu/badge?page_id={{ . }}" loading="lazy" alt="page views counter"></p>
       {{ end }}
     </main>
 
