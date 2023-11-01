@@ -3,4 +3,4 @@ Disallow: /search
 Disallow: /sitemap.xml
 Allow: /
 
-Sitemap: {{ site.Home.Sitemap.Filename }}
+Sitemap: {{ site.Home.Sitemap.Filename | absURL }}
