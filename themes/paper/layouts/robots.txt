@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /search
+Disallow: /sitemap.xml
+Allow: /
+
+Sitemap: {{ site.Home.Sitemap.Filename }}
