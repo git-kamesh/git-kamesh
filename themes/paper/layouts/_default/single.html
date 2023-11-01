@@ -21,6 +21,8 @@
 
   <section>{{ .Content }}</section>
 
+  {{ partial "share-buttons.html" . }}
+
   <!-- Post Tags -->
   {{ if .Params.tags }}
   <footer class="mt-12 flex flex-wrap">
