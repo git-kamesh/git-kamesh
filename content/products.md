@@ -12,7 +12,7 @@ Welcome to my digital space! Here, you can get an exclusive look at the interest
 Below, you'll find a display of my handmade creations, the products that I'm truly passionate about. From open-source gems to my commercial projects, you can find them all here.
 
 | Product Name | Type | Description |
-|---|---|---|---|
+|---|---|---|
 | [iNotesPress](https://github.com/git-kamesh/iNotesPress) | Opensource | 📝 WordPress Note Taking plugin for teams |
 | [Gmeet](https://github.com/git-kamesh/gmeet) | Opensource | Google chrome extention to automate boring life 😉 |
 | [Class Landing](https://github.com/git-kamesh/classic-landing) | Opensource | 🚀 An opensource landing page for your business |
@@ -20,5 +20,15 @@ Below, you'll find a display of my handmade creations, the products that I'm tru
 
 Feel free to explore, experiment, and if something catches your eye, don't hesitate to dig deeper. These are like my digital babies, and I'm thrilled to share them with you.
 
-Stay motivated and be productive,<br/>
-Kamesh Sethupathi
+> Stay motivated and be productive
+
+
+<!-- ### Upcomming products - One Brand One Voice
+
+| Product Name | Type | Description |
+|---|---|---|
+| Forms | Commercial | Create - Collect - Analyze : Omnichannel |
+| Analytics | Commercial | Privacy aware analytics for all platform |
+| Rewards | Commercial | Turn customers into sales rep |
+| Buddy | Commercial | Lets build culture organization wide |
+| Unclutter | Commercial | BI for everyone | -->
