@@ -4,7 +4,7 @@ description = "Controlling The Ureg to Quit"
 date = "2023-10-28"
 author = "Kamesh Sethupathi"
 tags = ["random-thought", "life"]
-type = "blog"
+type = ["blog", "posts"]
 +++
 
 Controlling the urge to quit, staying patience and waiting for the right time are easy thing unless you thought about it. 

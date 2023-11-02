@@ -4,7 +4,7 @@ description = "Join me on an exciting adventure as we delve into the world of st
 date = "2023-10-24"
 author = "Kamesh Sethupathi"
 tags = ["general"]
-type = "blog"
+type = ["blog", "posts"]
 +++
 
 Hello! I'm Kamesh Sethupathi, and I'm super excited to welcome you to my own website. I've been a [frontend developer](https://www.coursera.org/articles/front-end-developer) for 5 years, and I've worked with cool companies like [Zoho](https://zoho.com) and [TestSigma](https://testsigma.com). My journey in tech has been fascinating, and I'm eager to share what I've learned with you.
