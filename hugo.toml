@@ -36,10 +36,16 @@ title = "Kamesh.xyz"
 [menu]
 
   [[menu.main]]
+    identifier = "products"
+    name = "Products"
+    url = "/products/"
+    weight = 10
+
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
+    weight = 100
 
 [taxonomies]
 category = "categories"
