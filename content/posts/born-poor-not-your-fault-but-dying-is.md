@@ -4,6 +4,7 @@ description = "Discover how you can escape the cycle of poverty and build a brig
 date = "2023-10-27"
 author = "Kamesh Sethupathi"
 tags = ["random-thought", "life"]
+type = "blog"
 +++
 
 I strongly belive education has nothing to do with being [rich](https://bogartwealth.com/wealthy-vs-rich), anyone could become richer or rise above poverty level if they have tirst and the ability to compare, Investigate and taking initiative.

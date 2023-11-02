@@ -4,6 +4,7 @@ description = "Discover why nurturing in-house talents and staying connected wit
 date = "2023-10-26"
 author = "Kamesh Sethupathi"
 tags = ["startup", "random-thought", "business"]
+type = "blog"
 +++
 
 Today I could see many startups adding fancy [hierarchies](https://www.investopedia.com/terms/c/corporate-hierarchy.asp) to their system.

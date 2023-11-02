@@ -23,6 +23,8 @@
 
   {{ partial "share-buttons.html" . }}
 
+  {{ partial "random-posts.html" . }}
+
   <!-- Post Tags -->
   {{ if .Params.tags }}
   <footer class="mt-12 flex flex-wrap">
@@ -57,6 +59,10 @@
     {{ end }}
   </nav>
   {{ end }}<!---->
+  {{ end }}
+
+  {{ with .Page.Permalink | urlize }}
+    <p align='center'><img src="https://visitor-badge.laobi.icu/badge?page_id={{ . }}" loading="lazy" alt="page views counter"></p>
   {{ end }}
 
   <!-- Disqus -->
