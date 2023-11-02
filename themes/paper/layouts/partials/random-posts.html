@@ -1,13 +1,20 @@
 <!-- layouts/partials/random_posts.html -->
 
-{{ $randomPosts := where .Site.Pages "Type" "blog" | shuffle | first 5 }}
+{{ $currentPagePermalink := .RelPermalink }}
+{{ $randomPosts := where .Site.Pages "Type" "posts" | shuffle | first 6 }}
 <div class="random-posts">
   <h2>Posts you might also like</h2>
   <ul>
     {{ range $randomPosts }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
+      {{ $postPermalink := .RelPermalink }}
+        {{ if ne $postPermalink $currentPagePermalink }}
+          {{ if ne .RelPermalink "/posts/" }}
+            <li>
+              <a href="{{ $postPermalink }}">{{ .Title }}
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
     {{ end }}
   </ul>
 </div>

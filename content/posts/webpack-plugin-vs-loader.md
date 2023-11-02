@@ -4,7 +4,6 @@ description = "The purpose of webpack loader and plugin."
 date = "2023-10-30"
 author = "Kamesh Sethupathi"
 tags = ["javascript", "devtool", "tech"]
-type = ["blog", "posts"]
 +++
 
 ## WebPack : Loader VS Plugin

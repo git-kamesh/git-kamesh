@@ -4,7 +4,6 @@ description = "Discover the secrets to developing user-friendly products that no
 date = "2023-10-27"
 author = "Kamesh Sethupathi"
 tags = ["startup", "random-thought", "business", "product", "privacy"]
-type = ["blog", "posts"]
 +++
 
 I'm obsessed with developing [products](https://www.geeksforgeeks.org/software-engineering-software-product/) which are super easy to use without compromising the ability to achive what's exactly needed for the end user.
