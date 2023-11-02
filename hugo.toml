@@ -72,9 +72,6 @@ series = "series"
 
   [services.twitter]
     disableInlineCSS = true
-  
-  [services.disqus]
-    shortname = 'https-kamesh-xyz'
 
 [outputs]
   home = ['html', 'rss']
