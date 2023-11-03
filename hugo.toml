@@ -24,7 +24,8 @@ title = "Kamesh.xyz"
 
   avatar = '1234.kamesh@gmail.com'
   name = 'Kamesh Sethupathi'
-  bio = 'Exploring Tech: Code, Startups, and Beyond'
+  bio = 'Unique Content Always . Exploring Tech: Code, Startups, and Beyond.'
+  description = "Unique Content Always. Exploring Tech, Code, Startups, and Beyond along With Kamesh Sethupathi. Blogs focused on Web Development, Startups, Bootstrapping, Software Architecture and random thoughts."
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
