@@ -27,8 +27,8 @@ Feel free to explore, experiment, and if something catches your eye, don't hesit
 
 | Product Name | Type | Description |
 |---|---|---|
-| Forms | Commercial | Create - Collect - Analyze : Omnichannel |
-| Analytics | Commercial | Privacy aware analytics for all platform |
-| Rewards | Commercial | Turn customers into sales rep |
-| Buddy | Commercial | Lets build culture organization wide |
-| Unclutter | Commercial | BI for everyone | -->
+| Forms | Commercial | Powerful form building, made easy. |
+| Analytics | Commercial | Privacy focused analytics, made easy. |
+| Rewards | Commercial | Boost your referrals with powerful rewards, made easy. |
+| Buddy | Commercial | Team culture, made easy. |
+| Unclutter | Commercial | BI for everyone, made easy. | -->
