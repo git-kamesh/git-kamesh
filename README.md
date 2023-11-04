@@ -1,4 +1,4 @@
-I'm kamesh, a 24-year-old with an intention to enhance as a successful full-stack web developer. I love building full-stack web applications and mobile apps. I have proved my superiority in frontend technologies. I love to share my resources and expertise with the dev community. Open to all DMs on [Twitter](https://twitter.com/kamesh_koops)
+I'm kamesh, a 26-year-old with an intention to enhance as a successful full-stack web developer. I love building full-stack web applications and mobile apps. I have proved my superiority in frontend technologies. I love to share my resources and expertise with the dev community. Open to all DMs on [Twitter](https://twitter.com/kamesh_koops)
 
 - 🔭 I’m currently working as a front-end developer at [ZOHO](https://zoho.com/)
 - 🌱 I’m currently learning Product Management, Marketing, and Designing
