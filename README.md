@@ -12,10 +12,6 @@ I'm kamesh, a 26-year-old with an intention to enhance as a successful full-stac
 - [Website](https://kamesh.xyz)
 - [LinkedIn](https://www.linkedin.com/in/kameshsethupathi/)
 - [Twitter](https://twitter.com/kamesh_koops)
-- [Medium](https://medium.com/@kamesh-dev)
-- [Hashnode](https://codeminer.hashnode.dev)
-- [Dev.to](https://dev.to/kamesh_dev)
-
 
 ## My skills 🚀
 ![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
