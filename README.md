@@ -1,6 +1,6 @@
 I'm kamesh, a 26-year-old with an intention to enhance as a successful full-stack web developer. I love building full-stack web applications and mobile apps. I have proved my superiority in frontend technologies. I love to share my resources and expertise with the dev community. Open to all DMs on [Twitter](https://twitter.com/kamesh_koops)
 
-- 🔭 I’m currently working as a front-end developer at [ZOHO](https://zoho.com/)
+- 🔭 I’m currently working as a front-end developer at [Testsigma](https://testsigma.com/)
 - 🌱 I’m currently learning Product Management, Marketing, and Designing
 - 👯 I’m looking to collaborate on Full-stack web development
 - 💬 Ask me about Frontend and Backend Technologies 
@@ -9,6 +9,7 @@ I'm kamesh, a 26-year-old with an intention to enhance as a successful full-stac
 - ⚡ Fun fact: Big fan of 🎶 and 🍲
 
 ## Find me around the web 🌍
+- [Website](https://kamesh.xyz)
 - [LinkedIn](https://www.linkedin.com/in/kameshsethupathi/)
 - [Twitter](https://twitter.com/kamesh_koops)
 - [Medium](https://medium.com/@kamesh-dev)
@@ -45,11 +46,10 @@ I'm kamesh, a 26-year-old with an intention to enhance as a successful full-stac
 
 ## My Recent Blog posts ✍️
 - [kReact: Building your own React & Virtual DOM](https://kamesh-dev.medium.com/kreact-building-your-own-react-virtual-dom-b0376cbbd3c)
-- [Writing unit-testable JavaScript code](https://kamesh-dev.medium.com/writing-unit-testable-javascript-code-2df561f933aa)
-- [How to Write Clean JavaScript code](https://kamesh-dev.medium.com/how-to-write-clean-javascript-code-97e4bb86599b)
-- [Higher-Order Functions in JavaScript](https://kamesh-dev.medium.com/higher-order-functions-in-javascript-cbc356a607c0)
-- [iNotesPress — WordPress Note Taking plugin for teams](https://kamesh-dev.medium.com/inotespress-wordpress-note-taking-plugin-for-teams-8f6e9b176d16)
-- [WebPack Loader vs Plugin](https://dev.to/kamesh_dev/webpack-loader-vs-plugin-1l20)
+- [Creating User-Centric Products: A Guide to Product Development and Marketing](https://kamesh.xyz/posts/user-centric-products/)
+- [WebPack Loader vs Plugin](https://kamesh.xyz/posts/webpack-plugin-vs-loader/)
+- [The Pitfalls of Blindly Following Hierarchy Trends in Startups](https://kamesh.xyz/posts/pitfalls-of-hierarchy-in-startup/)
+- [Controlling The Ureg to Quit](https://kamesh.xyz/posts/controlling-urge-to-quit/)
 
 
 ## Most used langauges
