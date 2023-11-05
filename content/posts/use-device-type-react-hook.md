@@ -6,43 +6,57 @@ author = "Kamesh Sethupathi"
 tags = ["react", "react hook", "snippet", "javascript", "privacy"]
 +++
 
-- In the world of web development, creating responsive and adaptive user interfaces is crucial. Ensuring that your website or web application looks & functions well across various devices, from mobile phones to desktop computers, is a basic requirement. One way to achieve this is by detecting the device type and adjusting your content or styles accordingly. 
-- In this blog post, we'll explore a custom React hook that allows you to detect the device type and adapt your UI based on the screen width.
+- In the world of web development, creating [responsive and adaptive user interfaces](https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/) is crucial. Ensuring that your website or web application looks & functions well across various devices, from mobile phones to desktop computers, is a basic requirement. 
+- One way to achieve this is by detecting the device type and adjusting your content or styles accordingly. 
+- In this blog post, we'll explore a custom [React](https://react.dev/) hook that allows you to detect the device type and adapt your UI based on the screen width.
 
 ### useDeviceType Hook
 
-Below `useDeviceType` hook aims to determine the device type based on the screen width and provide that information to your components.
+Below `useDeviceType` [hook](https://react.dev/reference/react/hooks) aims to determine the device type based on the screen width using [matchMedia](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia).
 
 ```js
 import { useState, useEffect } from 'react';
 
+
 const useDeviceType = () => {
   const [deviceType, setDeviceType] = useState(null);
 
-  useEffect(() => {
-    const handleResize = () => {
-      const screenWidth = window.innerWidth;
+  // Define constants for media queries
+  const MEDIA_QUERIES = {
+    MOBILE: '(max-width: 767px)',
+    TABLET: '(min-width: 768px) and (max-width: 1023px)',
+    LAPTOP: '(min-width: 1024px) and (max-width: 1439px)',
+    DESKTOP: '(min-width: 1440px)',
+  };
 
-      if (screenWidth < 768) {
-        setDeviceType('mobile');
-      } else if (screenWidth >= 768 && screenWidth < 1024) {
-        setDeviceType('tablet');
-      } else if (screenWidth >= 1024 && screenWidth < 1440) {
-        setDeviceType('laptop');
-      } else {
-        setDeviceType('desktop');
+  useEffect(() => {
+    const mediaQuery = window.matchMedia(
+      `${MEDIA_QUERIES.MOBILE}, ${MEDIA_QUERIES.TABLET}, ${MEDIA_QUERIES.LAPTOP}, ${MEDIA_QUERIES.DESKTOP}`
+    );
+
+    const handleMediaChange = (mediaQueryList) => {
+      if (mediaQueryList.matches) {
+        if (mediaQueryList.media.includes(MEDIA_QUERIES.MOBILE)) {
+          setDeviceType('mobile');
+        } else if (mediaQueryList.media.includes(MEDIA_QUERIES.TABLET)) {
+          setDeviceType('tablet');
+        } else if (mediaQueryList.media.includes(MEDIA_QUERIES.LAPTOP)) {
+          setDeviceType('laptop');
+        } else if (mediaQueryList.media.includes(MEDIA_QUERIES.DESKTOP)) {
+          setDeviceType('desktop');
+        }
       }
     };
 
     // Initial device type detection
-    handleResize();
+    handleMediaChange(mediaQuery);
 
-    // Add event listener to update device type on window resize
-    window.addEventListener('resize', handleResize);
+    // Add event listener to update device type when the media query changes
+    mediaQuery.addListener(handleMediaChange);
 
     return () => {
       // Cleanup: remove the event listener when the component unmounts
-      window.removeEventListener('resize', handleResize);
+      mediaQuery.removeListener(handleMediaChange);
     };
   }, []);
 
@@ -51,10 +65,6 @@ const useDeviceType = () => {
 
 export default useDeviceType;
 ```
-
-### Measures
-- To ensure that the device type is updated dynamically as the user resizes their browser window, an event listener is added to the resize event
-- To prevent memory leaks and ensure that the event listener is removed when the component using the useDeviceType hook is unmounted, helps maintain good performance and memory management.
 
 ### Usage 
 
