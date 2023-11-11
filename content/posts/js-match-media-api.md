@@ -3,7 +3,7 @@ title = "Boosting Website Responsiveness `with window.matchMedia`"
 description = "Responsive web design is about ensuring your website looks and works well on different devices. It's essential for today's web. Traditionally, developers used the window width (window.innerWidth) to make sites responsive, but there's a better way: window.matchMedia. Let's see why."
 date = "2023-11-10"
 author = "Kamesh Sethupathi"
-tags = ["react", "react hook", "snippet", "javascript", "privacy"]
+tags = ["snippet", "javascript"]
 +++
 
 [Responsive web design](https://www.w3schools.com/html/html_responsive.asp) is about ensuring your website looks and works well on different devices. It's essential for today's web. Traditionally, developers used the window width ([window.innerWidth](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth)) to make sites responsive, but there's a better way: [window.matchMedia](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia). Let's see why.
