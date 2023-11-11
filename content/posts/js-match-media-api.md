@@ -6,7 +6,7 @@ author = "Kamesh Sethupathi"
 tags = ["react", "react hook", "snippet", "javascript", "privacy"]
 +++
 
-Responsive web design is about ensuring your website looks and works well on different devices. It's essential for today's web. Traditionally, developers used the window width (window.innerWidth) to make sites responsive, but there's a better way: window.matchMedia. Let's see why.
+[Responsive web design](https://www.w3schools.com/html/html_responsive.asp) is about ensuring your website looks and works well on different devices. It's essential for today's web. Traditionally, developers used the window width ([window.innerWidth](https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth)) to make sites responsive, but there's a better way: [window.matchMedia](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia). Let's see why.
 
 ### Traditional way using resize event and innerWidth
 
@@ -35,7 +35,7 @@ window.addEventListener('resize', handleResize);
 In this code:
 - We continuously check the window width with window.innerWidth.
 - Depending on the window size, we apply different layout adjustments.
-- We listen for the resize event and call handleResize whenever the window is resized.
+- We listen for the [resize event](https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event) and call handleResize whenever the window is resized.
 
 ### Better way through `window.matchMedia`
 
