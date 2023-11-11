@@ -1,6 +1,6 @@
 +++ 
-title = "Controlling The Ureg to Quit"
-description = "Controlling The Ureg to Quit"
+title = "Controlling The Urge to Quit"
+description = "Controlling The Urge to Quit"
 date = "2023-10-28"
 author = "Kamesh Sethupathi"
 tags = ["random-thought", "life"]
