@@ -23,7 +23,7 @@ Feel free to explore, experiment, and if something catches your eye, don't hesit
 > Stay motivated and be productive
 
 
-<!-- ### Upcomming products - One Brand One Voice
+<!-- ### Upcomming products - crazy strive
 
 > Empowering Your Aspirations, Fueled by Our Devotion and Commitment — A Powerful Partnership.
 
