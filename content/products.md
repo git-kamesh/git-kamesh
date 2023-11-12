@@ -28,7 +28,9 @@ Feel free to explore, experiment, and if something catches your eye, don't hesit
 | Product Name | Type | Description |
 |---|---|---|
 | Forms | Commercial | Powerful form building, made easy. |
-| Analytics | Commercial | Privacy focused analytics, made easy. |
+| Product | Commercial | Product updates, made easy. |
 | Rewards | Commercial | Boost your referrals with powerful rewards, made easy. |
+| Public Relations | Commercial | PR, made easy. |
+| Analytics | Commercial | Privacy focused analytics, made easy. |
 | Buddy | Commercial | Team culture, made easy. |
 | Unclutter | Commercial | BI for everyone, made easy. | -->
