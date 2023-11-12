@@ -25,7 +25,7 @@ Feel free to explore, experiment, and if something catches your eye, don't hesit
 
 <!-- ### Upcomming products - One Brand One Voice
 
-> Empowering Your Aspirations, Fueled by Our Devotion and Commitment: A Powerful Partnership.
+> Empowering Your Aspirations, Fueled by Our Devotion and Commitment — A Powerful Partnership.
 
 | Product Name | Type | Description |
 |---|---|---|
