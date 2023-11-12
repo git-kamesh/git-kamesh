@@ -25,12 +25,16 @@ Feel free to explore, experiment, and if something catches your eye, don't hesit
 
 <!-- ### Upcomming products - One Brand One Voice
 
+> Empowering Your Aspirations, Fueled by Our Devotion and Commitment: A Powerful Partnership.
+
 | Product Name | Type | Description |
 |---|---|---|
 | Forms | Commercial | Powerful form building, made easy. |
-| Product | Commercial | Product updates, made easy. |
-| Rewards | Commercial | Boost your referrals with powerful rewards, made easy. |
-| Public Relations | Commercial | PR, made easy. |
-| Analytics | Commercial | Privacy focused analytics, made easy. |
-| Buddy | Commercial | Team culture, made easy. |
-| Unclutter | Commercial | BI for everyone, made easy. | -->
+| Product | Commercial | Effortless product updates and management. |
+| Rewards | Commercial | Supercharge your referrals with seamless reward management. |
+| PR | Commercial | Elevate your PR efforts with intuitive tools, made easy. |
+| Analytics | Commercial | Privacy-focused analytics, simplifying data insights. |
+| Tasks | Commercial | Streamline task management and collaboration with ease. |
+| SocialBoost | Commercial | Amplify your social media presence and engagement, made easy. |
+| Buddy | Commercial | Cultivate a positive team culture effortlessly. |
+| Unclutter | Commercial | Business intelligence accessible to everyone, made easy. | -->
