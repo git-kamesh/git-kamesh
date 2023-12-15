@@ -89,3 +89,5 @@ In this blog, we'll navigate the exciting world of product management together, 
 
 And there you have it – your beginner's guide to product management. Whether you're navigating the seas or the vast internet, the principles remain the same. Happy sailing, and may your product journey be filled with smooth seas and exciting discoveries!
 
+
+{{< include "reachout.md" >}}

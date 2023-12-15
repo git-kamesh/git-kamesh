@@ -59,3 +59,6 @@ With this code:
 - We use window.matchMedia to observe media queries. In this example, we check if the screen width is less than 768 pixels.
 - The handleMediaChange function applies or reverts styles or behavior when the media query matches or no longer matches.
 - We add an event listener to react to changes in the media query, and we check it initially.
+
+
+{{< include "reachout.md" >}}
