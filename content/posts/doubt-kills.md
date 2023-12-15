@@ -1,6 +1,6 @@
 +++ 
-title = "Doubt kills"
-description = "Stop doubting, start beliving"
+title = "Believe Big, Doubt Small: Your Dream Journey Unleashed!"
+description = "Unlock the magic of believing in yourself with "Believe Big, Doubt Small: Your Dream Journey Unleashed!" Embrace this short, sweet guide to defeating doubt, sticking to your plan, and savoring success piece by piece. Let the adventure begin! 🚀💫"
 date = "2023-12-15"
 author = "Kamesh Sethupathi"
 tags = ["random-thought", "life"]
