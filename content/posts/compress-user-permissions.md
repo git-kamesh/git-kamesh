@@ -1,16 +1,15 @@
 +++ 
-title = "Permission Bitmasking : Compressing and Decompressing User Permissions in JavaScript"
+title = "Compressing and Decompressing User Permissions in JavaScript"
 description = "User permissions are an essential part of any application's security model. One major use case for compressing and decompressing user permissions is to include the compressed permissions in an authentication token. When a user logs in or obtains an access token, you can attach their permissions to the token."
-date = "2023-11-10"
+date = "2024-01-03"
 author = "Kamesh Sethupathi"
-tags = ["algorithm", "jwt", "security", "javascript", "privacy"]
-draft = true
+tags = ["algorithm", "jwt", "security", "javascript", "privacy", "engineering"]
 +++
 
-User permissions are an essential part of any application's security model. One major use case for compressing and decompressing user permissions is to include the compressed permissions in an authentication token. When a user logs in or obtains an access token, you can attach their permissions to the token.
+User permissions are an essential part of any application's security model. One major use case for compressing and decompressing user permissions is to include the compressed permissions in an authentication token. When a user login and obtained the access token, you can attach their permissions to the token.
 
 ```
-Compressed: 3963
+Compressed: 3963n
 Decompressed: 
 {
   forms: [1, 2, null, 4],
@@ -51,7 +50,7 @@ Now, let's discuss how we can compress and decompress these permissions using bi
 
 ```js
 function compress(permissionsObject) {
-  let compressedValue = 0;
+  let compressedValue = 0n;
 
   for (const resource in permissionsObject) {
     if (permissionsObject.hasOwnProperty(resource)) {
@@ -59,7 +58,7 @@ function compress(permissionsObject) {
 
       for (let i = 0; i < resourcePermissions.length; i++) {
         if (resourcePermissions[i] !== null) {
-          compressedValue |= 1 << resourcePermissions[i] - 1;
+          compressedValue |= 1n << BigInt(resourcePermissions[i] - 1);
         }
       }
     }
@@ -81,9 +80,8 @@ function decompress(compressedValue, resources) {
 
   for (const resource of resources) {
     decompressedPermissions[resource] = [];
-
     for (let i = 0; i < permissions[resource].length; i++) {
-      if ((compressedValue & (1 << permissions[resource][i] - 1)) !== 0) {
+      if ((compressedValue & (1n << BigInt(permissions[resource][i] - 1))) !== 0n) {
         decompressedPermissions[resource].push(permissions[resource][i]);
       } else {
         decompressedPermissions[resource].push(null);
@@ -111,7 +109,7 @@ const userPermissions = {
 };
 
 function compress(permissionsObject) {
-  let compressedValue = 0;
+  let compressedValue = 0n;
 
   for (const resource in permissionsObject) {
     if (permissionsObject.hasOwnProperty(resource)) {
@@ -119,7 +117,7 @@ function compress(permissionsObject) {
 
       for (let i = 0; i < resourcePermissions.length; i++) {
         if (resourcePermissions[i] !== null) {
-          compressedValue |= 1 << resourcePermissions[i] - 1;
+          compressedValue |= 1n << BigInt(resourcePermissions[i] - 1);
         }
       }
     }
@@ -134,7 +132,7 @@ function decompress(compressedValue, resources) {
   for (const resource of resources) {
     decompressedPermissions[resource] = [];
     for (let i = 0; i < permissions[resource].length; i++) {
-      if ((compressedValue & (1 << permissions[resource][i] - 1)) !== 0) {
+      if ((compressedValue & (1n << BigInt(permissions[resource][i] - 1))) !== 0n) {
         decompressedPermissions[resource].push(permissions[resource][i]);
       } else {
         decompressedPermissions[resource].push(null);
@@ -151,6 +149,20 @@ console.log('Compressed:', compressedValue);
 const decompressedPermissions = decompress(compressedValue, Object.keys(userPermissions));
 console.log('Decompressed:', decompressedPermissions);
 ```
+
+## Breaking down the math behind
+
+1. **Bitwise OR Operation:**
+   - `compressed |= currentPermission`: The bitwise OR operator (`|`) is used to pack permissions into the `compressed` variable. This operation sets the bits in `compressed` to 1 at the positions where the corresponding permissions are present in `currentPermission`.
+
+2. **Bitwise AND Operation:**
+   - `compressed & currentPermission`: The bitwise AND operator (`&`) is employed to check whether a permission is present in the `compressed` variable. If the result is not zero, it indicates that the permission is already compressed.
+
+3. **Bit Shifting for Space Efficiency:**
+   - `1 << permissionValue - 1`: This expression ensures that each permission occupies only one bit in the compressed permission bit space. It achieves this by left-shifting the binary digit 1 to the left by `permissionValue - 1` positions, effectively creating a unique bitmask for each permission.
+
+4. **Use of BigInt for Larger Numbers:**
+   - `BigInt` is utilized instead of `Int` to overcome the limitations imposed by regular JavaScript integers. This is crucial when dealing with larger numbers, as `BigInt` provides extended precision, allowing the representation of values beyond the range supported by standard integers.
 
 
 {{< include "reachout.md" >}}
