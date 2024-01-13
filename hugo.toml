@@ -28,6 +28,9 @@ title = "Kamesh.xyz"
   description = "Unique Content Always. Exploring Tech, Code, Startups, and Beyond along With Kamesh Sethupathi. Blogs focused on Web Development, Startups, Bootstrapping, Software Architecture and random thoughts."
 # ------------------------------
 
+staticDir = ['static']
+
+
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
 [markup]
   [markup.goldmark]
