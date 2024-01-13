@@ -3,7 +3,7 @@ title = "Failsforce: A Freshworks Masterstroke"
 description = "Unlock the magic of believing in yourself. Embrace this short, sweet guide to defeating doubt, sticking to your plan, and savoring success piece by piece."
 date = "2024-01-13"
 author = "Kamesh Sethupathi"
-tags = ["marketing", "business", "startups"]
+tags = ["marketing", "business", "startup"]
 +++
 
 ![Failsforce Banner](/images/failsforce-banner.png)
