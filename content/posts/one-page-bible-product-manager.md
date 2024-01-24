@@ -6,6 +6,8 @@ author = "Kamesh Sethupathi"
 tags = ["product", "javascript", "startup"]
 +++
 
+![Product Managers](/images/pm-bible.png)
+
 In this blog, we'll navigate the exciting world of product management together, focusing on straightforward tips to set sail on a successful journey. This one-page bible for Product Manager encapsulates key principles, strategies, and mindsets essential for a successful product management journey.
 
 ---

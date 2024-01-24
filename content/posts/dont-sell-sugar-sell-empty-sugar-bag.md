@@ -6,6 +6,8 @@ author = "Kamesh Sethupathi"
 tags = ["nothing-2-something", "life", "business", "general"]
 +++
 
+![Grocery](/images/grocery.png)
+
 My father runs a grocery store, and running a grocery store is not as easy as it looks. There are a lot of business tactics and meticulous calculations behind it.
 
 Grocery stores are the most common business you can see nearby, they're everywhere, and so competition is very high.

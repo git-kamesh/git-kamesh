@@ -6,6 +6,8 @@ author = "Kamesh Sethupathi"
 tags = ["algorithm", "jwt", "security", "javascript", "privacy", "engineering"]
 +++
 
+![Comprss user permissions](/images/compress-bytes.png)
+
 User permissions are an essential part of any application's security model. One major use case for compressing and decompressing user permissions is to include the compressed permissions in an authentication token. When a user login and obtained the access token, you can attach their permissions to the token.
 
 ```

@@ -6,7 +6,7 @@ author = "Kamesh Sethupathi"
 tags = ["coding", "javascript", "tech"]
 +++
 
-![Failsforce Banner](/images/man-using-laptop.png)
+![People coding](/images/man-using-laptop.png)
 
 Today I'm sharing some simple tricks that helped me level up. Remember, these are just ideas to spark your own coding adventure!
 

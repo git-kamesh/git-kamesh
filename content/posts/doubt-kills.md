@@ -6,6 +6,8 @@ author = "Kamesh Sethupathi"
 tags = ["random-thought", "life"]
 +++
 
+![Believe](/images/believe.png)
+
 Never doubt, belief is the most powerful weapon for growth. Doubt is like a big, bad wolf trying to blow down your dreams. Belief is your superhero! It helps your dreams grow big and strong.
 
 Stick to original plan, progressively improve things. Even if things get a bit tricky, stay on the path. 
