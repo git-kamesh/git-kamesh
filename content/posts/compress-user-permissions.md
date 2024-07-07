@@ -1,5 +1,5 @@
 +++ 
-title = "Compressing and Decompressing User Permissions in JavaScript"
+title = "Compressing and Decompressing User Permissions in JS"
 description = "User permissions are an essential part of any application's security model. One major use case for compressing and decompressing user permissions is to include the compressed permissions in an authentication token. When a user logs in or obtains an access token, you can attach their permissions to the token."
 date = "2024-01-03"
 author = "Kamesh Sethupathi"

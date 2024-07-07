@@ -1,5 +1,5 @@
 +++ 
-title = "Creating User-Centric Products: A Guide to Product Development and Marketing"
+title = "Creating User-Centric Products"
 description = "Discover the secrets to developing user-friendly products that not only meet your customers' needs but also excel in the market. Explore key strategies like minimalism, design aesthetics, attention to detail, and community engagement to ensure your product's success. Learn how to maintain transparency, extendability, and privacy focus while boosting your product's visibility through referrals, rewards, and content-driven traffic."
 date = "2023-10-27"
 author = "Kamesh Sethupathi"

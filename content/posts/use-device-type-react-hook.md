@@ -1,5 +1,5 @@
 +++ 
-title = "Detecting and Adapting to Device Types in React with Custom Hooks"
+title = "Detecting & Adapting to Device Types with Custom Hooks"
 description = "In this blog post, we'll explore a custom React hook that allows you to detect the device type and adapt your UI based on the screen width."
 date = "2023-11-04"
 author = "Kamesh Sethupathi"

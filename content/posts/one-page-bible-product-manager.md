@@ -1,5 +1,5 @@
 +++ 
-title = "Product Manager Bible : A 101 Guide to Successful Product Management - A Beginner's Journey"
+title = "Product Manager'w Bible : A 101 Guide"
 description = "To guide you through this endeavor, I've prepared a one-page bible that encapsulates key principles, strategies, and mindsets essential for a successful product management journey."
 date = "2023-12-08"
 author = "Kamesh Sethupathi"
